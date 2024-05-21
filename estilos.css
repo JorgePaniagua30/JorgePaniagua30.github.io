@@ -1,0 +1,92 @@
+/* Reset de estilo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    line-height: 2.1;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 30px;
+}
+
+/* Estilo del contenedor principal */
+header,
+nav,
+main,
+footer {
+    margin-bottom: 10px;
+}
+
+/* Encabezado */
+header {
+
+    background-color: whitesmoke;
+    color: #0253a8;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 0;
+    border-radius: 1px;
+    color: #0253a8;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0253a8;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones principales */
+main section {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+main h2 {
+    margin-bottom: 10px;
+    color: #0253a8;
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-image: url("../Proyecto/img/Fotoperfil.jpg.jpeg");
+    border-bottom: #0253a8;
+    text-align: center;
+    padding: 10px;
+    background: #0253a8;
+    color: white;
+    border-radius: 8px;
+}
